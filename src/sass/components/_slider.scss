@@ -1,0 +1,28 @@
+.ardi-slider {
+    height: 0.8em;
+    background-color: $ardi-slider-bg-color;
+    position: relative;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: relative;
+    &__handle {
+        background-color: $ardi-slider-handle-bg-color;
+        border: $ardi-slider-handle-border;
+        box-shadow: $ardi-slider-handle-box-shadow;
+        width: 1em;
+        height: 1em;
+        top: -0.1em;
+        position: absolute;
+        left: 0;
+        z-index: 1;
+        display: inline-block;
+        -o-transform: translateX(0) translateY(0) translateZ(0);
+        -ms-transform: translateX(0) translateY(0) translateZ(0);
+        -webkit-transform: translateX(0) translateY(0) translateZ(0);
+        -moz-transform: translateX(0) translateY(0) translateZ(0);
+        transform: translateX(0) translateY(0) translateZ(0);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "ardi-slider",
+  "version": "1.0.0",
+  "description": "Simple slider element",
+  "main": "dist/js/slider.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ardeshir Eshghi",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-minify-css": "1.2.2",
+    "gulp-rename": "1.2.2",
+    "gulp-sass": "2.1.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "3.0.7",
+    "jscs": "^3.0.3",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.2.0",
+    "mocha": "^2.4.5",
+    "karma": "^0.13.10",
+    "karma-chai": "^0.1.0",
+    "karma-coverage": "^0.5.2",
+    "karma-mocha": "^0.2.0",
+    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-sinon": "^1.0.4",
+    "mocha": "^2.3.3",
+    "phantomjs": "^1.9.18",
+    "multiparty": "^4.1.2",
+    "rewire": "^2.5.1",
+    "sinon": "^1.17.4",
+    "vinyl-source-stream": "1.1.0"
+  }
+}

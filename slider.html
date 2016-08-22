@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ardi Slider Test Harness Page</title>
+    <link rel="stylesheet" type="text/css" href="./dist/css/slider.min.css">
+</head>
+<body>
+    <div class="ardi-slider" style="width: 500px;"></div>
+    <script type="text/javascript" src="./dist/js/slider.min.js"></script>
+    <script type="text/javascript">
+        ;(function() {
+            var slider = window.slider = new ArdiSlider(document.querySelector('.ardi-slider'), {
+                min: 100,
+                max: 300,
+                value: 150
+            });
+        })();
+    </script>
+</body>
+</html>
